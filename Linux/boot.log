@@ -1,0 +1,10 @@
+  ```bash
+    /var/log/boot.log {
+        rotate 30
+        daily
+        notifempty
+        compress
+        delaycompress
+        endscript
+    }
+    ```
