@@ -2,13 +2,13 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Network Diagram](https://github.com/VBritvin/ELK_Project/blob/main/Diagrams/Network_Diagram.png)
+![Alt text](https://github.com/VBritvin/ELK_Project/blob/main/Diagrams/Network_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ***yml*** and *config* **file** may be used to install only certain pieces of it, such as Filebeat.
 
-  - [Installing ELK] (https://github.com/VBritvin/ELK_Project/blob/main/Ansible/install-elk.yml) 
-  - [Filebeat playbook] (https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml)
-  - [Metricbeat playbook] (https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml)
+  - [Installing ELK](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/install-elk.yml) 
+  - [Filebeat playbook](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml)
+  - [Metricbeat playbook](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -114,7 +114,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- **Copy the https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml and https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml to /etc/ansible/roles.**
+- **Copy the [Metricbeat](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml) and [Filebeat](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml) to /etc/ansible/roles.**
 - **Update the /etc/ansible/hosts file to include the IP addresses of ELK server and Web servers.**
 - **Run the playbook, and navigate to HTTP 5601 to check that the installation worked as expected.**
 
@@ -126,18 +126,18 @@ SSH into the control node and follow the steps below:
 
   **For ELK server:**
 
-  - **Copy the https://github.com/VBritvin/ELK_Project/blob/main/Ansible/install-elk.yml**
+  - **Copy the  [ELK](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/install-elk.yml)**
   - **Run the playbook using this command : `ansible-playbook install-elk.yml`**
 
   **For Filebeat :**
 
-  https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml
+  [Filebeat](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml)
 
   ![Filebeat](https://github.com/VBritvin/ELK_Project/blob/main/Diagrams/Filebeat.png)
 
   **For Metricbeat:**
 
-  https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml
+  [Metricbeat](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml)
 
 ![Metricbeat](https://github.com/VBritvin/ELK_Project/blob/main/Diagrams/Metricbeat.png)
 
