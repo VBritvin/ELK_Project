@@ -6,9 +6,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [Installing ELK] (https://github.com/VBritvin/ELK_Project/blob/main/Ansible/install-elk.yml) 
-  - [Filebeat playbook] (https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml)
-  - [Metricbeat playbook] (https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml)
+  - [Installing ELK](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/install-elk.yml) 
+  - [Filebeat playbook](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/filebeat-playbook.yml)
+  - [Metricbeat playbook](https://github.com/VBritvin/ELK_Project/blob/main/Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
